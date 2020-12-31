@@ -1,8 +1,8 @@
 var ep = require("express");
 var ap = ep();
-ap.use(ep.static(__dirname + '/frontend'));
+ap.use(ep.static(__dirname + '/profile.html'));
 ap.get('/', function(req,res){
-    res.sendFile(__dirname + '/frontend/HTML/profile.html');
+    res.sendFile(__dirname + '/profile.html');
 });
 
 var po = process.env.PORT || 3000;
