@@ -1,5 +1,5 @@
 {
-  "name": "jerry",
+  "name": "student",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RajuriRuchitha/jerry.git"
+    "url": "git+https://github.com/RajuriRuchitha/student.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RajuriRuchitha/jerry/issues"
+    "url": "https://github.com/RajuriRuchitha/student.git/issues"
   },
-  "homepage": "https://github.com/RajuriRuchitha/jerry#readme",
+  "homepage": "https://github.com/RajuriRuchitha/student.git#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
