@@ -1,6 +1,6 @@
 var ep = require("express");
 var ap = ep();
-ap.use(ep.static(__dirname + '/profile.html'));
+ap.use(ep.static(__dirname ));
 ap.get('/', function(req,res){
     res.sendFile(__dirname + '/profile.html');
 });
